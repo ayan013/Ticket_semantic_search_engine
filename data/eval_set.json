@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q001",
+    "query": "I don't remember my login credentials",
+    "relevant_ticket_ids": [1, 4]
+  },
+  {
+    "id": "q002",
+    "query": "Too many login attempts locked me out",
+    "relevant_ticket_ids": [2]
+  },
+  {
+    "id": "q003",
+    "query": "The verification code never arrives",
+    "relevant_ticket_ids": [3]
+  },
+  {
+    "id": "q004",
+    "query": "Money left my bank account but the purchase failed",
+    "relevant_ticket_ids": [5]
+  },
+  {
+    "id": "q005",
+    "query": "My card won't work during payment",
+    "relevant_ticket_ids": [6]
+  },
+  {
+    "id": "q006",
+    "query": "Why did I get billed twice?",
+    "relevant_ticket_ids": [7]
+  },
+  {
+    "id": "q007",
+    "query": "I returned the purchase but still don't have my money",
+    "relevant_ticket_ids": [9, 11]
+  },
+  {
+    "id": "q008",
+    "query": "Uploading a PDF makes the program crash",
+    "relevant_ticket_ids": [12]
+  },
+  {
+    "id": "q009",
+    "query": "My upload gets almost finished and then hangs",
+    "relevant_ticket_ids": [14]
+  },
+  {
+    "id": "q010",
+    "query": "I want to stop paying for my plan every month",
+    "relevant_ticket_ids": [15, 17]
+  },
+  {
+    "id": "q011",
+    "query": "The site is painfully slow",
+    "relevant_ticket_ids": [18, 19]
+  },
+  {
+    "id": "q012",
+    "query": "Opening analytics causes the application to freeze",
+    "relevant_ticket_ids": [20]
+  }
+]

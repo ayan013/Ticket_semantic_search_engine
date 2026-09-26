@@ -15,12 +15,9 @@ class SemanticRetrival:
 
         return similarity
 
-    def search(self, similarity_score: np.ndarray) -> list[dict]:
+    def search(self, similarity_score: np.ndarray,top_k) -> list[dict]:
             result = []
-            #top_k = len(self.tickets)
-            docs = [document for document in self.tickets if document["id"] == 5]
-            for document, score in zip(docs,similarity_score):
-
+            for document, score in zip(self.tickets,similarity_score):
                     result.append({
                     "id":document["id"],
                     "category": document["category"],
@@ -28,8 +25,8 @@ class SemanticRetrival:
                     "score": round(float(score),4)
                     })
 
-            #result.sort(key = lambda item:item["score"], reverse= True)
-            return result
+            result.sort(key = lambda item:item["score"], reverse= True)
+            return result[:top_k]
 
 
 
