@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": "authentication",
+    "text": "I forgot my password and cannot log in to my account"
+  },
+  {
+    "id": 2,
+    "category": "authentication",
+    "text": "My account has been locked after multiple login attempts"
+  },
+  {
+    "id": 3,
+    "category": "authentication",
+    "text": "I am not receiving the OTP required to sign in"
+  },
+  {
+    "id": 4,
+    "category": "authentication",
+    "text": "I want to reset my account password"
+  },
+
+  {
+    "id": 5,
+    "category": "payment",
+    "text": "Payment was deducted but my order was not created"
+  },
+  {
+    "id": 6,
+    "category": "payment",
+    "text": "My credit card is being declined during checkout"
+  },
+  {
+    "id": 7,
+    "category": "payment",
+    "text": "I was charged twice for the same purchase"
+  },
+  {
+    "id": 8,
+    "category": "payment",
+    "text": "The payment page fails whenever I try to complete my purchase"
+  },
+
+  {
+    "id": 9,
+    "category": "refund",
+    "text": "I cancelled my order but have not received the refund"
+  },
+  {
+    "id": 10,
+    "category": "refund",
+    "text": "How many days does it take for a refund to reach my bank"
+  },
+  {
+    "id": 11,
+    "category": "refund",
+    "text": "My refund status says completed but I have not received the money"
+  },
+
+  {
+    "id": 12,
+    "category": "upload",
+    "text": "The application crashes whenever I upload a PDF document"
+  },
+  {
+    "id": 13,
+    "category": "upload",
+    "text": "I cannot upload my profile picture"
+  },
+  {
+    "id": 14,
+    "category": "upload",
+    "text": "File upload stops at 90 percent and never completes"
+  },
+
+  {
+    "id": 15,
+    "category": "subscription",
+    "text": "How can I cancel my monthly subscription"
+  },
+  {
+    "id": 16,
+    "category": "subscription",
+    "text": "I want to upgrade from the basic plan to the premium plan"
+  },
+  {
+    "id": 17,
+    "category": "subscription",
+    "text": "My subscription renewed even though I wanted to cancel"
+  },
+
+  {
+    "id": 18,
+    "category": "performance",
+    "text": "The website has become extremely slow"
+  },
+  {
+    "id": 19,
+    "category": "performance",
+    "text": "The dashboard takes a long time to load"
+  },
+  {
+    "id": 20,
+    "category": "performance",
+    "text": "The application freezes when I open the analytics page"
+  }
+]
