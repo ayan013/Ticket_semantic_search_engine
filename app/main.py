@@ -19,8 +19,8 @@ document_embeddings = embedding_service.embedded_documents(texts) #document embe
 retriever = SemanticRetrival(tickets,document_embeddings) # semantic retrieval object creation
 evaluator = RetrievalEvaluator(retriever,embedding_service)
 
-#for top_k in [1,3,5]:
-result = evaluator.recall_at_k(query = "I returned the purchase but still don't have my money",relevant_id = [9, 11],top_k = 3)
-print(f"{round(result,2)}")
+for top_k in [1,3,5]:
+    result = evaluator.evaluate_recall_at_k(queries,top_k)
+    print(f"Recall@{top_k}: {round(result,2)}")
 
 

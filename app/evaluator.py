@@ -39,5 +39,12 @@ class RetrievalEvaluator:
         recall = len(intersection)/len(relevant_ids)
         return recall
 
+    def evaluate_recall_at_k(self,evaluation_queries: list[dict], top_k: int) -> float:
+        recall = 0
+        for query in evaluation_queries:
+            result = self.recall_at_k(query["query"],query["relevant_ticket_ids"],top_k)
+            recall = recall+result
+        return recall/len(evaluation_queries)
+
 
 
