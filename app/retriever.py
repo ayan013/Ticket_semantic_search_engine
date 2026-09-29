@@ -17,6 +17,11 @@ class SemanticRetrival:
         document_magnitude = np.linalg.norm(self.documents_embedding, axis=1)
         query_magnitude = np.linalg.norm(query_embedding)
 
+        if query_magnitude == 0:
+            raise ValueError("Query embedding has zero magnitude")
+        if np.any(document_magnitude == 0):
+            raise ValueError("One or more document embeddings have zero magnitude")
+        
         similarity = dot_product / (document_magnitude * query_magnitude)
 
         return similarity
