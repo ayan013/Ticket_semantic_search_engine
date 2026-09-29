@@ -1,5 +1,6 @@
+#This file only used for embedding
 from sentence_transformers import SentenceTransformer
-import numpy as np
+
 
 class EmbeddingService:
     def __init__(self):
